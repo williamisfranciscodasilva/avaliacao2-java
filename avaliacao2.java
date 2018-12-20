@@ -17,10 +17,15 @@ class avaliacao2
         prova3 = (prova3 * 5) / 10;
         media = prova1 + prova2 + prova3;
 
-        if (media >= 6)
+        if (media >= 7)
         {
             JOptionPane.showMessageDialog(null,"Parabés você foi APROVADO com média: "+media);
             System.out.print("Parabés você foi APROVADO com média: "+media);
+        }
+        else if (media >= 4)
+        {
+            JOptionPane.showMessageDialog(null,"Você está em RECUPERAÇÃO com média: "+media);
+            System.out.print("Você está em RECUPERAÇÃO com média: "+media);
         }
         else
         {
